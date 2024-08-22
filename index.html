@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Incriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <img class="logo" src="./asset/Logo.png" alt="logo de alura" >
+   </header>
+   <main>
+    <section>
+        <textarea class="text-area" cols="30" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+        <div>
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+
+        <div class="botones">
+            <button class="btn-Encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+    <section>
+        <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+    </section> 
+    
+   </main>
+<script src="./script.js"></script>
+
+<footer class="footer">
+    <p>Desarrolado por David N.</p>
+</footer>
+
+</body>
+</html> 
